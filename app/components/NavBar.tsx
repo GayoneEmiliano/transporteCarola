@@ -7,8 +7,8 @@ export default function NavBar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-20 bg-black/70 backdrop-blur-md text-white">
-      <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
+    <nav className="fixed top-0 left-0 w-full z-20  text-white">
+      <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4 backdrop-blur-xl bg-white/10 border-b border-white/20 rounded-b-2xl shadow-lg">
         
         {/* LOGO */}
         <Link href="/" className="text-2xl font-bold">
@@ -26,7 +26,7 @@ export default function NavBar() {
         {/* BOTÓN CTA */}
         <a
             href="https://wa.me/5492915087636" target="_blank"
-            className="bg-blue-600 px-4 py-2 rounded-lg text-center"
+            className="bg-green-600 px-4 py-2 rounded-lg text-center"
           >
             WhatsApp
           </a>
@@ -49,7 +49,7 @@ export default function NavBar() {
           <Link href="#contacto">Contacto</Link>
           <a
             href="https://wa.me/5492915087636" target="_blank"
-            className="bg-blue-600 px-4 py-2 rounded-lg text-center"
+            className="bg-green-600 px-4 py-2 rounded-lg text-center"
           >
             WhatsApp
           </a>

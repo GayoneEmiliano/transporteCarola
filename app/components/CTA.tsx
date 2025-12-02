@@ -1,6 +1,6 @@
 export default function CTA() {
     return (
-      <section id="contacto" className="py-20 text-center bg-blue-600 text-white px-6">
+      <section id="contacto" className="py-20 text-center bg-gray-100 text-gray-600 px-6">
         <h2 className="text-4xl font-bold mb-4">¿Necesitás un servicio de transporte?</h2>
         <p className="mb-6 text-lg">Solicitá una cotización rápida y sin compromiso.</p>
   

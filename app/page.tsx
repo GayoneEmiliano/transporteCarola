@@ -5,11 +5,13 @@ import Fleet from "./components/Fleets";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
+import Nav from "./components/Nav";
 
 export default function Home() {
   return (
     <main>
-      <NavBar />
+      {/* <NavBar /> */}
+      <Nav/>
       <Hero />
       <Services />
       <Benefits />

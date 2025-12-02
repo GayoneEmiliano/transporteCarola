@@ -6,7 +6,6 @@ export default function Fleet() {
       <h2 className="text-4xl font-bold text-center text-gray-600 mb-12">Nuestra Flota</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-4xl mx-auto justify-items-center">
-
         <div className="group w-[350px] h-[220px] mx-auto [perspective:1000px]">
           <div className="relative w-full h-full transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
             <div className="absolute inset-0 [backface-visibility:hidden] flex items-center justify-center">

@@ -36,7 +36,7 @@ export default function Nav() {
 
                 {/* BOTÓN CTA */}
                 <a
-                    href="https://wa.me/5492915087636" target="_blank"
+                    href="https://wa.me/5492921408822" target="_blank"
                     className="bg-green-600 px-4 py-2 rounded-lg text-center"
                 >
                     WhatsApp
@@ -56,7 +56,7 @@ export default function Nav() {
                         <Link href="#beneficios">Por qué elegirnos</Link>
                         <Link href="#contacto">Contacto</Link>
                         <a
-                            href="https://wa.me/5492915087636" target="_blank"
+                            href="https://wa.me/5492921408822" target="_blank"
                             className="bg-green-600 px-4 py-2 rounded-lg text-center"
                         >
                             WhatsApp
